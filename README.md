@@ -10,7 +10,7 @@ All data is encrypted with AES (Advanced Encryption Standard) by using a default
 You can also encrypt each entry with your own password.
 This application has search-as-you-type feature. Search suggestions will appear as you type into the textbox.
 
-![Scrn-1.png](https://raw.githubusercontent.com/ygvn/Dictionary/master/Scrn-1.png)     
+![Scrn--1.png](https://raw.githubusercontent.com/ygvn/Dictionary/master/Scrn--1.png)     
 
 
 Copyright (c) 2019, Yucel Guven   
