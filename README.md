@@ -8,7 +8,8 @@ Instead of having too many separate notes or text files on your desktop, you can
 Simply enter your text into the richtextbox and click on save button.
 All data is encrypted with AES (Advanced Encryption Standard) by using a default password.
 You can also encrypt each entry with your own password.
-This application has search-as-you-type feature. Search suggestions will appear as you type into the textbox.
+This application has search-as-you-type feature. Search suggestions will appear as you type into the textbox.    
+No popular database is used, you do not need to install any database for this application.
 
 ![Scrn--1.png](https://raw.githubusercontent.com/ygvn/Dictionary/master/Scrn--1.png)     
 
