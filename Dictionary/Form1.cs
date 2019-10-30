@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright (c) 2019 Yucel Guven
+ * Copyright (c) 2019-2020 Yucel Guven
  * All rights reserved.
  * 
  * This file is part of Dictionary/Notepad Application.
@@ -34,7 +34,6 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Security.Cryptography;
@@ -46,8 +45,8 @@ namespace Dictionary
     {
         #region special variables  -yucel
 
-        public string filename = "MyDictionary.bin";          /* Default file name.    Change with your favorite if you want */
-        public string keysFile = "MyDictionary.bin.keys";     /* Default keyfile name. Change with your favorite if you want */
+        public string filename = "MyDictionary.bin";          /* Default file name.    Change with your favorite */
+        public string keysFile = "MyDictionary.bin.keys";     /* Default keyfile name. Change with your favorite */
 
         int count = 0;
         bool vfound = false;
@@ -56,7 +55,7 @@ namespace Dictionary
         Dictionary<string, long> keylist = new Dictionary<string, long>();
         
         public string EncryptionValuePasswd = "";             /* User-Entered Password */
-        string EncryptionPasswdDefault = "default123";        /* Default Password. Change with your favorite if you want */
+        string EncryptionPasswdDefault = "default123";        /* Default Password. Change with your favorite */
         
         Font cf = null;
         Color ct, cb;
@@ -432,7 +431,8 @@ namespace Dictionary
             catch (Exception ee)
             {
                 MessageBox.Show("Invalid Password", "Invalid Password", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                     // + Environment.NewLine + ee.ToString());
+                //MessageBox.Show("Invalid Password" + Environment.NewLine + Environment.NewLine + ee.ToString(), "Invalid Password",
+                //    MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 EncryptionPasswd = "";
                 
@@ -503,8 +503,9 @@ namespace Dictionary
             catch (Exception ee)
             {
                 MessageBox.Show("Invalid Password", "Invalid Password", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                                   // + Environment.NewLine + Environment.NewLine + ee.ToString());
-                
+                //MessageBox.Show("Invalid Password" + Environment.NewLine + Environment.NewLine + ee.ToString(), "Invalid Password",
+                //    MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                 EncryptionPasswd = "";
 
                 this.richTextBox1.ReadOnly = true;

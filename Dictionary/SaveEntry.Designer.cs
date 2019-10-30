@@ -1,4 +1,33 @@
-﻿namespace Dictionary
+﻿/*
+ * Copyright (c) 2019-2020 Yucel Guven
+ * All rights reserved.
+ * 
+ * This file is part of Dictionary/Notepad Application.
+ * 
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted (subject to the limitations in the
+ * disclaimer below) provided that the following conditions are met:
+ * 
+ * 1. Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ * notice, this list of conditions and the following disclaimer in the
+ * documentation and/or other materials provided with the distribution.
+ * 
+ * NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE
+ * GRANTED BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS 
+ * AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, 
+ * BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS 
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER
+ * OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+ * OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF 
+ * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+namespace Dictionary
 {
     partial class SaveEntry
     {
@@ -55,7 +84,7 @@
             this.Cancel_Button.Location = new System.Drawing.Point(184, 213);
             this.Cancel_Button.Name = "Cancel_Button";
             this.Cancel_Button.Size = new System.Drawing.Size(75, 23);
-            this.Cancel_Button.TabIndex = 6;
+            this.Cancel_Button.TabIndex = 1;
             this.Cancel_Button.Text = "&Cancel";
             this.Cancel_Button.UseVisualStyleBackColor = true;
             this.Cancel_Button.Click += new System.EventHandler(this.CancelButton_Click);
@@ -68,7 +97,7 @@
             this.button2.Location = new System.Drawing.Point(265, 189);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(28, 20);
-            this.button2.TabIndex = 4;
+            this.button2.TabIndex = 6;
             this.button2.Text = "!";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button2_KeyDown);
@@ -92,7 +121,7 @@
             this.textBox1.Location = new System.Drawing.Point(85, 189);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(174, 20);
-            this.textBox1.TabIndex = 3;
+            this.textBox1.TabIndex = 5;
             this.textBox1.UseSystemPasswordChar = true;
             // 
             // SaveButton
@@ -100,7 +129,7 @@
             this.SaveButton.Location = new System.Drawing.Point(85, 213);
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(75, 23);
-            this.SaveButton.TabIndex = 5;
+            this.SaveButton.TabIndex = 0;
             this.SaveButton.Text = "&Save";
             this.SaveButton.UseVisualStyleBackColor = true;
             this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
@@ -111,7 +140,7 @@
             this.checkBox1.Location = new System.Drawing.Point(85, 166);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(145, 17);
-            this.checkBox1.TabIndex = 2;
+            this.checkBox1.TabIndex = 4;
             this.checkBox1.Text = "Protect with a password?";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
@@ -125,7 +154,7 @@
             this.groupBox1.Location = new System.Drawing.Point(85, 80);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(212, 45);
-            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Format:";
             // 
@@ -186,9 +215,9 @@
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(285, 62);
-            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Save Entry?";
+            this.groupBox2.Text = "Save Entry";
             // 
             // textBox2
             // 
@@ -198,7 +227,8 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(263, 38);
-            this.textBox2.TabIndex = 0;
+            this.textBox2.TabIndex = 7;
+            this.textBox2.TabStop = false;
             // 
             // checkBox2
             // 
@@ -206,7 +236,7 @@
             this.checkBox2.Location = new System.Drawing.Point(85, 131);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(78, 17);
-            this.checkBox2.TabIndex = 18;
+            this.checkBox2.TabIndex = 3;
             this.checkBox2.Text = "Compress?";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);

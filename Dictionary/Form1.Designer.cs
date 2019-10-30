@@ -1,4 +1,33 @@
-﻿namespace Dictionary
+﻿/*
+ * Copyright (c) 2019-2020 Yucel Guven
+ * All rights reserved.
+ * 
+ * This file is part of Dictionary/Notepad Application.
+ * 
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted (subject to the limitations in the
+ * disclaimer below) provided that the following conditions are met:
+ * 
+ * 1. Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ * notice, this list of conditions and the following disclaimer in the
+ * documentation and/or other materials provided with the distribution.
+ * 
+ * NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE
+ * GRANTED BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS 
+ * AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, 
+ * BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS 
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER
+ * OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+ * OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF 
+ * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+namespace Dictionary
 {
     partial class Form1
     {
@@ -171,10 +200,10 @@
             this.underlineToolStripMenuItem,
             this.italicToolStripMenuItem,
             this.upperLowerToolStripMenuItem,
-            this.fontsToolStripMenuItem,
             this.colorstoolStripMenuItem,
             this.backgroundColorToolStripMenuItem,
             this.toolStripSeparator4,
+            this.fontsToolStripMenuItem,
             this.resetFontsAndColorToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
@@ -376,15 +405,15 @@
             this.underlinetoolStripMenuItem1,
             this.italicCtrlTToolStripMenuItem1,
             this.upperlowerToolStripMenuItem1,
-            this.fontstoolStripMenuItem1,
             this.colorsToolStripMenuItem1,
             this.backcolorToolStripMenuItem1,
             this.toolStripSeparator6,
+            this.fontstoolStripMenuItem1,
             this.resetFontsToolStripMenuItem1});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.ShowCheckMargin = true;
             this.contextMenuStrip1.ShowImageMargin = false;
-            this.contextMenuStrip1.Size = new System.Drawing.Size(227, 280);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(227, 258);
             // 
             // EditingKeystoolStripMenuItem1
             // 

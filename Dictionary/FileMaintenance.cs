@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright (c) 2019 Yucel Guven
+ * Copyright (c) 2019-2020 Yucel Guven
  * All rights reserved.
  * 
  * This file is part of Dictionary/Notepad Application.
@@ -27,15 +27,10 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Dictionary
@@ -111,16 +106,16 @@ namespace Dictionary
             }
 
             MessageBox.Show("Number of Entries: \r\n"
-                          + "-------------------- \r\n"
-                          + "Before   \t: " + this.Count + "\r\n"
-                          + "Deleted  \t: " + this.Deleted + "\r\n"
-                          + "NewTotal \t: " + (this.Count - this.Deleted).ToString()
-                          + "\r\n\r\n"
+                          + "------------------------ \r\n"
+                          + "Before   \t : " + this.Count + "\r\n"
+                          + "Deleted  \t : " + this.Deleted + "\r\n"
+                          + "NewTotal : " + (this.Count - this.Deleted).ToString()
+                          +  Environment.NewLine + Environment.NewLine
                           + "File Size: \r\n"
-                          + "--------- \r\n"
+                          + "------------------------ \r\n"
                           + "Before   \t: " + this.BeforeFilesize.ToString() + " Bytes" + "\r\n"
                           + "Deleted  \t: " + (this.BeforeFilesize - this.NowFileSize).ToString() + " Bytes" + "\r\n"
-                          + "New Size \t: " + this.NowFileSize.ToString() + " Bytes",
+                          + "New Size : " + this.NowFileSize.ToString() + " Bytes",
                           "File Maintenance Report", MessageBoxButtons.OK, MessageBoxIcon.Information);
             
             this.backgroundWorker1.CancelAsync();

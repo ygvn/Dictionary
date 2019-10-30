@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright (c) 2019 Yucel Guven
+ * Copyright (c) 2019-2020 Yucel Guven
  * All rights reserved.
  * 
  * This file is part of Dictionary/Notepad Application.
@@ -28,10 +28,6 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
 
