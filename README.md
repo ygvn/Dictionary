@@ -4,7 +4,7 @@ A Simple Dictionary / Notepad Application
 Latest Version: v2.0   
 Date: 30 October 2019
 
-This is a simple dictionary application based on C# .NET 4.7.2 framework.
+This is a simple dictionary application based on C# .NET **4.7.2** framework.
 You can also use this application as a notepad. Instead of having too many separate notes, pictures or text files on your desktop, you can save and keep all of them in one file. Simply enter the information and click on the save button.
 
 All data is encrypted with AES (Advanced Encryption Standard) by using a default password.
