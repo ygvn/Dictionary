@@ -1,20 +1,22 @@
 # Dictionary
 A Simple Dictionary / Notepad Application
 
-Latest Version: v1.0
+Latest Version: v2.0   
+Date: 30 October 2019
 
-This is a simple dictionary application based on C# .NET 4 framework. You can also use this application as a notepad.
-Instead of having too many separate notes or text files on your desktop, you can save and keep all of them in one data file.
-Simply enter your text into the richtextbox and click on save button.
+This is a simple dictionary application based on C# .NET 4.7.2 framework.
+You can also use this application as a notepad. Instead of having too many separate notes, pictures or text files on your desktop, you can save and keep all of them in one file. Simply enter the information and click on the save button.
+
 All data is encrypted with AES (Advanced Encryption Standard) by using a default password.
-You can also encrypt each entry with your own password.
-This application has search-as-you-type feature. Search suggestions will appear as you type into the textbox.    
+You can also save each entry with your own password. 
+
+This application has search-as-you-type feature. Search suggestions will appear as you type into the textbox.   
 No popular database is used, you do not need to install any database for this application.
 
 ![Scrn--1.png](https://raw.githubusercontent.com/ygvn/Dictionary/master/Scrn--1.png)     
 
 
-Copyright (c) 2019, Yucel Guven   
+Copyright (c) 2019-2020, Yucel Guven   
 All rights reserved.
 
 This file is part of Dictionary/Notepad Application.
